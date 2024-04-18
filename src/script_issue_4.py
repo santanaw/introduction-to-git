@@ -5,4 +5,4 @@
 RESULT = 4 - 4
 
 # Print output
-print(result)
+print(RESULT)
