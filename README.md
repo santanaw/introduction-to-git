@@ -78,14 +78,14 @@ add your institutional mail address.
    ```
    Please note that the `user.email` should be associated to your GitHub account.
 
-10. Copy the repository's URL `git@github.com:santanaw/primers4predoc-git.git`. Alternatively you can copy it from the *Code* button in the main [repository's main page](https://github.com/santanaw/primers4predoc-git)
+10. Copy the repository's URL `git@github.com:santanaw/introduction-to-git`. Alternatively you can copy it from the *Code* button in the main [repository's main page](https://github.com/santanaw/introduction-to-git)
 ![Copy Git URL](./img/copy_git_url.png)
 The SSH link is neaded instead of the HTTPS when using the SSH Authentication method.
 
 11. Clone the repository in your `~/Documents` directory.
     ```bash
     cd ~/Documents
-    git clone git@github.com:santanaw/primers4predoc-git.git
+    git clone git@github.com:santanaw/introduction-to-git.git
     ```
 
 
@@ -98,12 +98,12 @@ The SSH link is neaded instead of the HTTPS when using the SSH Authentication me
 
 **Aim**: Create a branch and fix the bug in your assigned script.
 
-1. Click on the [Issues](https://github.com/santanaw/primers4predoc-git/issues) tab of this repository and find your assigned bug issue (search for your GitHub username on the issue title). Click on it.
+1. Click on the [Issues](https://github.com/santanaw/introduction-to-git/issues) tab of this repository and find your assigned bug issue (search for your GitHub username on the issue title). Click on it.
 2. Write down your **assigned issue number** (preceded by a hashtag after your username), and identify in the first comment the **name of the script file** you will fix.
 ![Issue opened](./img/bug_opened.png)
-3. Open your VM's Terminal and go to the `primers4predoc-git` directory. Then, identify the branch you are standing on.
+3. Open your VM's Terminal and go to the `introduction-to-git` directory. Then, identify the branch you are standing on.
    ```bash
-   cd ~/Documents/primers4predoc-git
+   cd ~/Documents/introduction-to-git
    git status
    ```
    **Question**: *What's the name of the branch we are standing on?*
@@ -133,7 +133,7 @@ The SSH link is neaded instead of the HTTPS when using the SSH Authentication me
 
 10. Go to the top of this tutorial and click on the dropdown menu "main", you sould be able to see the branch you created.
 ![Display branch](./img/display_branch.png)
-11. Go to the [Issues](https://github.com/santanaw/primers4predoc-git/issues) tab again and then to your assigned bug issue. You should see your commit. This was automatically linked when the issue number was used in your commit message.
+11. Go to the [Issues](https://github.com/santanaw/introduction-to-git/issues) tab again and then to your assigned bug issue. You should see your commit. This was automatically linked when the issue number was used in your commit message.
 
 ### Open a Pull Request
 
